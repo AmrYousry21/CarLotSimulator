@@ -29,7 +29,11 @@ namespace CarLotSimulator
                 Model = "Forte",
                 Year = 2020
             };
-            
+
+            myCarOne.MakeEngineNoise("Vroom");
+            Console.WriteLine();
+            myCarOne.MakeHonkNoise("Honk Honk");
+            Console.WriteLine();
 
             carsList.CarsList = new List<Car>();
 
@@ -43,6 +47,11 @@ namespace CarLotSimulator
                 Year = 2012
             };
 
+            myCarTwo.MakeEngineNoise("Vroom");
+            Console.WriteLine();
+            myCarTwo.MakeHonkNoise("Honk Honk");
+            Console.WriteLine();
+
             carsList.CarsList.Add(myCarTwo);
             
 
@@ -52,6 +61,11 @@ namespace CarLotSimulator
                 Model = "Elantra",
                 Year = 2021
             };
+
+            myCarThree.MakeEngineNoise("Vroom");
+            Console.WriteLine();
+            myCarThree.MakeHonkNoise("Honk Honk");
+            Console.WriteLine();
 
             carsList.CarsList.Add(myCarThree);
            
