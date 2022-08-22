@@ -30,6 +30,11 @@ namespace CarLotSimulator
                 Year = 2020
             };
 
+            CarLot.numberOfCars++;
+
+            Console.WriteLine($"Added a new car. Number of cars in lot: {CarLot.numberOfCars}");
+            Console.WriteLine();
+
             myCarOne.MakeEngineNoise("Vroom");
             Console.WriteLine();
             myCarOne.MakeHonkNoise("Honk Honk");
@@ -47,6 +52,11 @@ namespace CarLotSimulator
                 Year = 2012
             };
 
+            CarLot.numberOfCars++;
+
+            Console.WriteLine($"Added a new car. Number of cars in lot: {CarLot.numberOfCars}");
+            Console.WriteLine();
+
             myCarTwo.MakeEngineNoise("Vroom");
             Console.WriteLine();
             myCarTwo.MakeHonkNoise("Honk Honk");
@@ -61,6 +71,11 @@ namespace CarLotSimulator
                 Model = "Elantra",
                 Year = 2021
             };
+
+            CarLot.numberOfCars++;
+
+            Console.WriteLine($"Added a new car. Number of cars in lot: {CarLot.numberOfCars}");
+            Console.WriteLine();
 
             myCarThree.MakeEngineNoise("Vroom");
             Console.WriteLine();
